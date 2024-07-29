@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouissal-ben-zahi</title>
+    <link rel="stylesheet" href="css.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init({
+            publicKey: "7oME-_54-KfY2KO3V",
+          });
+       })();
+    </script>
+    
+    <script>
+        window.addEventListener('scroll', function() {
+            const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+            if (window.scrollY > window.innerHeight / 2) { // Si la page est défilée de plus de la moitié de la hauteur de la fenêtre
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
+            }
+        });
+    </script>
+</head>
+<body>
+    <!--footer-->
+    <div class="menu" id="home">
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#myskills">Skills</a></li>
+            <li><a href="#myprojects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="overlay">
+        <div class="content">
+            <h3>Hi, I'm Miss <span>Ben Zahi Ouissal</span></h3>
+            <h2>A Full Stack Developer</h2>
+            <p>Welcome! I'm a Full Stack developer passionate about creating user-friendly websites. Explore my projects to see how I blend creativity with code to build digital experiences that stand out. Let's connect and turn ideas into reality.</p>
+            <a target="_blank" href="moncv.pdf" download="moncv.pdf" class="btn">Download CV <i class='bx bx-download'></i></a>
+            <div class="icons">
+                <a target="_blank" href="https://www.linkedin.com/in/ouissal-ben-zahi"><i class='bx bxl-linkedin'></i></a>
+                <a href="#contact"><i class='bx bxl-gmail'></i></a>
+                <a target="_blank" href="https://github.com/Ouisal-ben-zahi"><i class='bx bxl-github'></i></a>
+            </div>
+            <div class="bas" >
+                <a href="#"><i class='bx bxs-hand-down'></i></a>
+              </div>
+            
+        </div>
+        <div class="ouisal">
+            <img src="skills/profile.png" alt="Profile Picture" style="width: 100%; border-radius: 50%;">
+        </div>
+    </div>
+    <!--fin de footer-->
+    <!--bio-->
+    <h1  style="margin-top: 26%;" class="bio" id="bio">Bio</h1>
+    <div class="about">
+        <div style="width: 40%;" >
+            <img class="bioImg"  src="skills/profile.png">
+            <h4>Contact Info</h4>
+            <hr>
+            <div class="contactinfo">
+                <div><a href="#"> <i class='bx bxs-phone'></i> +212 710 981 439</a></div>
+                <br>
+                <div><a href="#contact"> <i class='bx bxl-gmail'></i> ouissalbenzahi@gmail.com</a></div>
+                <br><div><a target="_blank" href="https://www.linkedin.com/in/ouissal-ben-zahi"> <i class='bx bxl-linkedin'></i> Ouissal Ben Zahi</a></div>
+                <br><div><a href="#"><i class='bx bxs-home'></i> Marrakech, Maroc</a></div>
+            </div>
+
+            
+        </div>
+        <div style="width: 50%;" >
+            <p  >Greetings! I'm a results-driven Full Stack Developer with a passion for building seamless and responsive websites. I specialize in front-end and back-end technologies, ensuring a consistent and user-friendly experience. Performance optimization is my strong point. I identify and eliminate code bottlenecks, creating lightning-fast websites. </p>
+            
+            <div class="skill-name">
+                    <p>Front-End Developpement</p><p>80%</p>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="skill-name">
+                <p>Back-End Developpement</p><p>75%</p>
+        </div>
+        <div class="progress-container">
+            <div class="progress"></div>
+        </div>
+        <div class="skill-name">
+            <p>wordpress Developpement</p><p>80%</p>
+    </div>
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+            
+        </div>
+        
+
+    </div>
+    
+  </div>
+  <!--service-->
+  <h1  id="services"> My Services</h1>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="skills/front.png" alt="Front-End Development">
+            <div class="card-content">
+                <h3 >Développement Web Front-End</h3>
+                <p>Création de sites web responsives et interactifs utilisant HTML, CSS, et JavaScript.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="skills/back.png" alt="Back-End Development">
+            <div class="card-content">
+                <h3 >Développement Web Back-End</h3>
+                <p>Conception et gestion de bases de données, développement de serveurs et APIs.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="skills/seo.png" alt="SEO Optimization">
+            <div class="card-content">
+                <h3>Référencement (SEO)</h3>
+                <p>Optimisation des contenus pour les moteurs de recherche et création de stratégies de mots-clés.</p>
+            </div>
+        </div>
+    </div>
+  <!--skills-->
+  <h1 id="myskills"> My Skills</h1>
+  
+    <div class="skil">
+        <div class="skills">
+            <img src="skills\HTML.png" alt="html" >
+            <h3>HTML5</h3>
+        </div>
+        <div class="skills">
+            <img src="skills\css.png" alt="html" >
+            <h3>CSS</h3>
+        </div>
+        <div class="skills">
+            <img src="skills\python.jfif" alt="html" >
+            <h3>Python</h3>
+            
+        </div>
+        <div class="skills">
+            <img src="skills\bootstrap.jfif" alt="html" >
+            <h3>Bootstrap</h3>
+            
+        </div>
+        <div class="skills">
+            <img src="skills\mysql.png" alt="html" >
+            <h3>MySQL</h3>
+            
+        </div>
+    </div>
+
+    <div class="skil">
+        <div class="skills">
+            <img src="skills\js.png" alt="html" >
+            <h3>Javascript</h3>
+        </div>
+        <div class="skills">
+            <img src="skills\react.png" alt="html" >
+            <h3>React.Js</h3>
+        </div>
+       
+        <div class="skills">
+            <img src="skills\php.jfif" alt="html" >
+            <h3>PHP</h3>
+        </div>
+        <div class="skills">
+            <img src="skills\wordpress.png" alt="html" >
+            <h3>wordpress</h3>
+        </div>
+        <div class="skills">
+            <img src="skills\nodejs.png" alt="html" >
+            <h3>Node Js</h3>
+        </div>
+        
+    </div>
+
+        
+
+    <!--projects-->
+    <h1 id="myprojects" > My PROJECTS</h1>
+
+    <div class="prj">
+      <div class="projects">
+          <img src="skills/photo1.PNG" alt="HTML5">
+          <h3>HTML5,css,bootstrap...</h3>
+      </div>
+      <div class="projects">
+          <img src="skills/photo2.PNG" alt="CSS">
+          <h3>wordpress..</h3>
+      </div>
+      <div class="projects">
+          <img src="skills/photo3.PNG" alt="Python">
+          <h3>html,css,js...</h3>
+      </div>
+  </div>
+  <!--contact-->
+  <h1 id="contact" > CONTACT</h1>
+  <div class="contact">
+    <p>If you like what you see, let's work together. I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from this contact form and I will get back to you shortly.</p>
+    
+    <form id="contactForm">
+        <input type="text" placeholder="Name" id="name" required><br>
+        <input type="email" placeholder="Email" id="email" required><br>
+        <input type="text" placeholder="Object" id="object" required><br>
+        <textarea placeholder="Your Message ..." id="message" required></textarea>
+        <br>
+        <button type="submit" name="sb" onclick="sendEmail()">
+            Envoyer <i class='bx bx-right-arrow-alt'></i>
+        </button>
+    </form>
+  </div>
+  <footer>
+    <div><i class='bx bx-copyright' ></i> copyright - 2024</div>
+
+    <div class="iconfooter">
+        <a target="_blank" href="https://www.linkedin.com/in/ouissal-ben-zahi"><i class='bx bxl-linkedin'></i></a>
+        <a href="#contact"><i class='bx bxl-gmail'></i></a>
+        <a target="_blank" href="https://github.com/Ouisal-ben-zahi"><i class='bx bxl-github'></i></a>
+
+    </div>
+  </footer>
+
+  <div class="top" id="scrollToTopBtn" >
+    <a href="#"><i class='bx bxs-hand-up' ></i></a>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('active');
+    }
+   
+  </script>
+</body>
+</html>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu ul');
+            menu.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
+
