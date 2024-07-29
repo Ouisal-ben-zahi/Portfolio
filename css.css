@@ -450,7 +450,7 @@ input:focus, textarea:focus {
 button[type="submit"] {
     margin-left: 25%;
 
-    width: 250px;
+    width: 25%;
     border: 1px solid gainsboro;
     color: white;
     padding: 10px;
@@ -646,7 +646,7 @@ footer div{
     }
     /*skills*/
     .skills {
-        width: 20%;
+        width: 30%;
         background: #fff;
         border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -673,6 +673,15 @@ footer div{
     }
     .contact p{
         display: none;
+    }
+    .prj{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .projects{
+        width: 90%;
     }
     
 
